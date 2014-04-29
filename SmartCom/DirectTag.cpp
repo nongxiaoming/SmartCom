@@ -1,6 +1,6 @@
 #include "StdAfx.h"
 #include "DirectTag.h"
-// download by http://www.codefans.net
+
 CDirectTag::CDirectTag(void)
 : m_nCount(0)
 ,nOverIndex(-1)

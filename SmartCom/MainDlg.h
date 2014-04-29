@@ -2,7 +2,7 @@
 
 #include "DirectControl.h"
 #include "DirectTag.h"
-#include "addredit.h"
+
 // CMainDlg
 
 class CMainDlg : public CWnd

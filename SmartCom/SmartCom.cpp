@@ -1,9 +1,7 @@
-// CometBrowser.cpp : 定义应用程序的类行为。
-// download by http://www.codefans.net
+// SmartComApp.cpp : 定义应用程序的类行为。
 
 #include "stdafx.h"
 #include "SmartCom.h"
-//#include "CometBrowserDlg.h"
 #include "MainDlg.h"
 
 #ifdef _DEBUG
@@ -11,14 +9,14 @@
 #endif
 
 
-// CCometBrowserApp
+// CSmartComApp
 
 BEGIN_MESSAGE_MAP(CSmartComApp, CWinApp)
 	ON_COMMAND(ID_HELP, &CWinApp::OnHelp)
 END_MESSAGE_MAP()
 
 
-// CCometBrowserApp 构造
+// CSmartComApp 构造
 
 CSmartComApp::CSmartComApp()
 {

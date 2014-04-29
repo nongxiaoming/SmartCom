@@ -1,5 +1,5 @@
 // MainDlg.cpp : 实现文件
-// download by http://www.codefans.net
+
 
 #include "stdafx.h"
 #include "SmartCom.h"

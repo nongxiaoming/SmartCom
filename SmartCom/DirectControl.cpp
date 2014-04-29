@@ -1,7 +1,7 @@
 #include "StdAfx.h"
 #include "DirectControl.h"
 #include "GlobalFunction.h"
-// download by http://www.codefans.net
+
 CDirectControl::CDirectControl(void)
 : nWidth(0)
 , nHeight(0)
