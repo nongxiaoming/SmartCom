@@ -95,17 +95,10 @@ void CMainDlg::UpdateCache()
 	m_nWidth=m_ClientRc.Width();
 	m_nHeight=m_ClientRc.Height();
 	int y=0;
-	if (IsZoomed()){
 		m_MainBtn.Create(m_hWnd,5,3,39,28,141,53,IDM_MAIN);
 		m_MainBtn.hIcon=m_MinIcon;
-		m_TitleRc=CRect(65,-50,m_nWidth-150,-5);
+		m_TitleRc=CRect(45,10,m_nWidth-150,26);
 		y=35;
-	}else{
-		m_MainBtn.Create(m_hWnd,3,3,61,48,62,1,IDM_MAIN);
-		m_MainBtn.hIcon=m_MaxIcon;
-		m_TitleRc=CRect(65,0,m_nWidth-150,25);		
-		y=53;
-	}
 	int x=m_nWidth-1;
 	x=x-m_CloseBtn.nWidth;
 	m_CloseBtn.x=x;
@@ -183,8 +176,6 @@ void CMainDlg::OnPaint()
 	//--------------------------------------
 	::StretchBlt(hDC,m_StatuRect.left,m_StatuRect.top,m_StatuRect.Width(),m_StatuRect.Height(),g_SkinDC,170,102,20,25,SRCCOPY);
 	::BitBlt(hDC,m_StatuRect.right-9,m_StatuRect.bottom-9,7,8,g_SkinDC,241,118,SRCCOPY);
-	//--------------------------------------
-	//::StretchBlt(hDC,m_FavoritesBtn.x+m_FavoritesBtn.nWidth,m_FavoritesBtn.y,m_GoUrlBtn.x-m_FavoritesBtn.x-//m_FavoritesBtn.nWidth,m_ForwardBtn.nHeight,g_SkinDC,167,160,10,m_ForwardBtn.nHeight,SRCCOPY);//µØÖ·À¸
 	//--------------------------------------
 	CBrush brush(RGB(255,255,255));
 	memDC.FillRect(m_WebRect,&brush);
@@ -315,14 +306,6 @@ void CMainDlg::OnSysCommand(UINT nID, LPARAM lParam)
 
 	CWnd::OnSysCommand(nID, lParam);
 }
-
-
-//void CMainDlg::CreateWeb(CString strUrl)
-//{
-//	CCometWebBrowser *pWeb=new CCometWebBrowser();
-//	pWeb->Create(NULL,_T(""),WS_VISIBLE,m_WebRect,this,0);
-//	pWeb->Navigate(strUrl);
-//}
 
 BOOL CMainDlg::OnCommand(WPARAM wParam, LPARAM lParam)
 {
