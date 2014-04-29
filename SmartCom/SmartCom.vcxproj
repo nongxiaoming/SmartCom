@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{57FCB10C-0898-4AB6-B16E-6FD405DFE271}</ProjectGuid>
+    <ProjectGuid>{1057AACE-80B7-4E6D-9402-63AB715B5C1F}</ProjectGuid>
     <RootNamespace>CometBrowser</RootNamespace>
     <Keyword>MFCProj</Keyword>
     <ProjectName>SmartCom</ProjectName>
@@ -26,7 +26,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v110</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
     <UseOfMfc>Static</UseOfMfc>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -108,7 +108,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AddrEdit.cpp" />
     <ClCompile Include="SmartCom.cpp" />
     <ClCompile Include="DirectControl.cpp" />
     <ClCompile Include="DirectTag.cpp" />
@@ -120,7 +119,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AddrEdit.h" />
     <ClInclude Include="SmartCom.h" />
     <ClInclude Include="DirectControl.h" />
     <ClInclude Include="DirectTag.h" />
