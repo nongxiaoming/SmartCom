@@ -3,7 +3,6 @@
 #include "DirectControl.h"
 #include "DirectTag.h"
 #include "addredit.h"
-#include "CometWebBrowser.h"
 // CMainDlg
 
 class CMainDlg : public CWnd
