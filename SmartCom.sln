@@ -1,9 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CometBrowser", "CometBrowser\CometBrowser.vcxproj", "{0ECC24AC-CF73-42A7-9E57-2499E3EA9C0E}"
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SmartCom", "SmartCom\SmartCom.vcxproj", "{57FCB10C-0898-4AB6-B16E-6FD405DFE271}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +9,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0ECC24AC-CF73-42A7-9E57-2499E3EA9C0E}.Debug|Win32.ActiveCfg = Debug|Win32
-		{0ECC24AC-CF73-42A7-9E57-2499E3EA9C0E}.Debug|Win32.Build.0 = Debug|Win32
-		{0ECC24AC-CF73-42A7-9E57-2499E3EA9C0E}.Release|Win32.ActiveCfg = Release|Win32
-		{0ECC24AC-CF73-42A7-9E57-2499E3EA9C0E}.Release|Win32.Build.0 = Release|Win32
+		{57FCB10C-0898-4AB6-B16E-6FD405DFE271}.Debug|Win32.ActiveCfg = Debug|Win32
+		{57FCB10C-0898-4AB6-B16E-6FD405DFE271}.Debug|Win32.Build.0 = Debug|Win32
+		{57FCB10C-0898-4AB6-B16E-6FD405DFE271}.Release|Win32.ActiveCfg = Release|Win32
+		{57FCB10C-0898-4AB6-B16E-6FD405DFE271}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
