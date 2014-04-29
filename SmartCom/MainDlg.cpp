@@ -119,12 +119,8 @@ void CMainDlg::UpdateCache()
 	m_HelpBtn.x=x;
 	m_BarTop=y;
 	x=m_MainBtn.x+m_MainBtn.nWidth+2;
-	//m_Tag.Move(x,y-30,m_HelpBtn.x-x-2,30);
 	m_TagRect=CRect(m_MainBtn.x+m_MainBtn.nWidth+2,y-30,m_HelpBtn.x-2,y);
 	m_BarRect=CRect(3,y,m_nWidth-3,y+38);
-	/*m_RetreatBtn.y=m_ForwardBtn.y=m_HistoryBtn1.y=m_HistoryBtn2.y=m_HomeBtn.y=m_RefreshBtn.y=m_FavoritesBtn.y=m_GoUrlBtn.y=y+5;
-	m_GoUrlBtn.x=m_nWidth-m_GoUrlBtn.nWidth-5;*/
-//	m_AddrEdit.MoveWindow(m_FavoritesBtn.x+m_FavoritesBtn.nWidth+3,m_FavoritesBtn.y+3,m_GoUrlBtn.x-m_FavoritesBtn.x-m_FavoritesBtn.nWidth-5,m_FavoritesBtn.nHeight-7,0);
 	y+=38;
 	m_StatuRect=CRect(3,m_nHeight-28,m_nWidth-3,m_nHeight-3);
 	m_WebRect=CRect(3,y,m_nWidth-3,m_StatuRect.top-1);
